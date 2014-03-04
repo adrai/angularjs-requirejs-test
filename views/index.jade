@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+head
+  meta(charset='utf-8')
+  title My AngularJS AngularJS + RequireJS App
+  link(rel='stylesheet', href='css/main.css')
+  body
+    ul.menu
+      li
+        a(href='#/view1') view1
+      li
+        a(href='#/view2') view2
+    div(data-ng-view='data-ng-view')
+    div
+      | Angular Require seed app: v
+      span(app-version='app-version')
+    script(src='lib/requirejs/require.js', data-main='js/main.js')

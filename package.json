@@ -1,0 +1,21 @@
+{
+  "name": "angulartest",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  },
+  "dependencies": {
+    "express": ">= 0.0.1",
+    "socket.io": ">= 0.0.1",
+    "jade": ">= 0.0.1"
+  },
+  "devDependencies": {
+    "grunt": ">= 0.4.1",
+    "grunt-contrib-jade": ">= 0.0.1",
+    "grunt-contrib-clean": ">= 0.0.1",
+    "grunt-contrib-stylus": ">= 0.0.1"
+  }
+}

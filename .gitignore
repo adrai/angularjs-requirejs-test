@@ -1,0 +1,31 @@
+# Ignore specific files
+.settings.xml
+.monitor
+.DS_Store
+*.orig
+npm-debug.log
+*.dat
+
+# Ignore various temporary files
+*~
+#*.swp
+
+# Ignore Vagrant generated directories
+.vagrant
+
+# Ignore various Node.js related directories and files
+node_modules
+node_modules/**/*
+
+livereload/public/css/*
+livereload/public/js/*
+livereload/public/gen/app.js
+livereload/public/gen/app.css
+livereload/views/jade/*
+!livereload/views/jade/layout.jade
+livereload/views/stylus/*
+!livereload/views/stylus/main.styl
+
+# Ignore generated assets
+client/css
+client/templates
